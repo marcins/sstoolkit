@@ -445,12 +445,12 @@ typedef enum {
 /**
  The object that acts as the data source of the receiving collection view.
  */
-@property (nonatomic, unsafe_unretained) id<SSCollectionViewDataSource> dataSource;
+@property (nonatomic, unsafe_unretained) IBOutlet id<SSCollectionViewDataSource> dataSource;
 
 /**
  The object that acts as the delegate of the receiving collection view.
  */
-@property (nonatomic, unsafe_unretained) id<SSCollectionViewDelegate> delegate;
+@property (nonatomic, unsafe_unretained) IBOutlet id<SSCollectionViewDelegate> delegate;
 
 @end
 

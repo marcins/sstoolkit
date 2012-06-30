@@ -16,6 +16,6 @@
 /**
  Returns the table view managed by the controller object. (read-only)
  */
-@property (nonatomic, strong, readonly) SSCollectionView *collectionView;
+@property (nonatomic, strong, readonly) IBOutlet SSCollectionView *collectionView;
 
 @end
